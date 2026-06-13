@@ -6,12 +6,15 @@ import './App.css'
 import Welcome from './components/Welcome'
 import { Product } from './components/Product'
 import { UserDetails } from './components/UserDetails'
-
+import { Alert } from './components/Alert'  
 function App() {
   const [count, setCount] = useState(0)
  
   return (
     <>
+       <Alert>
+        <p>Your changes have been made</p>
+      </Alert>
       <Welcome name="Yamal" />
       <Welcome name="Lamine" />
       <Welcome name="Gavi" />
