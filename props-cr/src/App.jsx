@@ -15,6 +15,9 @@ function App() {
        <Alert>
         <p>Your changes have been made</p>
       </Alert>
+      <Alert type='error'>
+        <p>something is wrong</p>
+      </Alert>
       <Welcome name="Yamal" />
       <Welcome name="Lamine" />
       <Welcome name="Gavi" />
