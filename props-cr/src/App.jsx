@@ -18,6 +18,9 @@ function App() {
       <Alert type='error'>
         <p>something is wrong</p>
       </Alert>
+      <Alert type='warning'>
+        <p>Be careful!</p>
+      </Alert>
       <Welcome name="Yamal" />
       <Welcome name="Lamine" />
       <Welcome name="Gavi" />
