@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import { Profile } from './components/Profile'
 import Welcome from './components/Welcome'
 import { Product } from './components/Product'
 import { UserDetails } from './components/UserDetails'
@@ -21,6 +22,7 @@ function App() {
       <Alert type='warning'>
         <p>Be careful!</p>
       </Alert>
+      <Profile name="Syda" description="Software Engineer" urlavatar="https://namugarurasyda.vercel.app/" />
       <Welcome name="Yamal" />
       <Welcome name="Lamine" />
       <Welcome name="Gavi" />
