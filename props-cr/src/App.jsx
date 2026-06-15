@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import menuImg from './assets/menu.png'
 import './App.css'
 import { Profile } from './components/Profile'
 import Welcome from './components/Welcome'
@@ -13,7 +14,7 @@ function App() {
  
   return (
     <>
-    <Profile name=" Namugarura Syda" description="Software Engineer" urlavatar="assets/menu.png" websiteurl="https://namugarurasyda.vercel.app/" />
+    <Profile name=" Namugarura Syda" description="Software Engineer" urlavatar={menuImg} websiteurl="https://namugarurasyda.vercel.app/" />
       <Welcome name="Yamal" />
        <Alert>
         <p>Your changes have been made</p>
