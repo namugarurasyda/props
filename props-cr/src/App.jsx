@@ -13,6 +13,8 @@ function App() {
  
   return (
     <>
+    <Profile name=" Namugarura Syda" description="Software Engineer" urlavatar="https://namugarurasyda.vercel.app/" />
+      <Welcome name="Yamal" />
        <Alert>
         <p>Your changes have been made</p>
       </Alert>
@@ -22,8 +24,7 @@ function App() {
       <Alert type='warning'>
         <p>Be careful!</p>
       </Alert>
-      <Profile name="Syda" description="Software Engineer" urlavatar="https://namugarurasyda.vercel.app/" />
-      <Welcome name="Yamal" />
+      
       <Welcome name="Lamine" />
       <Welcome name="Gavi" />
       <Product title="Laptop" price={999.99} inStock={true} categories={["Electronics", "Computers"]} />  
