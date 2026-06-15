@@ -13,7 +13,7 @@ function App() {
  
   return (
     <>
-    <Profile name=" Namugarura Syda" description="Software Engineer" urlavatar="https://namugarurasyda.vercel.app/" />
+    <Profile name=" Namugarura Syda" description="Software Engineer" urlavatar="assets/menu.jpeg" websiteurl="https://syda.com" />
       <Welcome name="Yamal" />
        <Alert>
         <p>Your changes have been made</p>
