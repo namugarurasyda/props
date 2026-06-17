@@ -16,9 +16,9 @@ function App() {
   return (
     <>
     <WindowChange />
-
+{/* 
     <Profile name=" Namugarura Syda" description="Software Engineer" urlavatar={menuImg} websiteurl="https://namugarurasyda.vercel.app/" />
-      <Welcome name="Yamal" />
+      <Welcome name="Yamal" /> */}
        <Alert>
         <p>Your changes have been made</p>
       </Alert>
@@ -26,15 +26,15 @@ function App() {
       <Alert type='error'>
         <p>something is wrong</p>
       </Alert>
-      <Alert type='warning'>
+      {/* <Alert type='warning'>
         <p>Be careful!</p>
       </Alert>
-      
-      <Welcome name="Lamine" />
+       */}
+      {/* <Welcome name="Lamine" />
       <Welcome name="Gavi" />
       <Product title="Laptop" price={999.99} inStock={true} categories={["Electronics", "Computers"]} />  
        <UserDetails name="Alice" isOnline={true} /> 
-       <UserDetails name="Bob" isOnline={false} />  
+       <UserDetails name="Bob" isOnline={false} />   */}
     </>
   )
 }

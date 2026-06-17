@@ -1,4 +1,4 @@
-// import "../../src/Alert.css"
+
 
 // export const Alert = ({ children , type="success"}) => {
 //     return (
@@ -19,21 +19,22 @@
 
 // import "../../src/Alert.css"
 // import "./../Alert.module.css"
+import  "./../App.css"
 
-// export const Alert = ({ children , type="success"}) => {
-//     return (
-//         <div 
-//             className={`alert ${type}`} // you call a literal  name
-//          >
-//             {children}
-//         </div>
-//     )
-// }
-
-
-import styles from "./../Alert.module.css"
-
-export const Alert = ({ children, type = "success" }) => {
-  return <div className={`${styles.alert} ${styles[type]}`}>{children}</div>;
-
+export const Alert = ({ children , type="success"}) => {
+    return (
+        <div 
+            className={`alert ${type}`} // you call a literal  name
+         >
+            {children}
+        </div>
+    )
 }
+
+
+ import styles from "./../Alert.module.css"
+
+// export const Alert = ({ children, type = "success" }) => {
+//   return <div className={`${styles.alert} ${styles[type]}`}>{children}</div>;
+
+// }

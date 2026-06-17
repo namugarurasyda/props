@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 
+
+
 function WindowChange() {
 
     const [width, setWidth] = useState(window.innerWidth);
