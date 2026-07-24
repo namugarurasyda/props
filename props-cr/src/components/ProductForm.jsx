@@ -16,6 +16,10 @@ export default function ProductPage({ productId, referrer, theme }) {
   );
 }
 
+export default function App() {
+  const [incrementBy, setIncrementBy] = useState(1);
+}
+
 function post(url, data) {
   // Imagine this sends a request...
   console.log('POST /' + url);
