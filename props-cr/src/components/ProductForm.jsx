@@ -9,6 +9,10 @@ export default function ProductPage({ productId, referrer, theme }) {
     });
   }, [productId, referrer]);
 
+ useEffect(() => {
+    onLog();
+  }, []);
+
   return (
     <div className={theme}>
       <ShippingForm onSubmit={handleSubmit} />
@@ -43,4 +47,5 @@ function post(url, data) {
   console.log('POST /' + url);
   console.log(data);
 }
+
 
